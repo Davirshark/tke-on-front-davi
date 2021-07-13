@@ -1,0 +1,36 @@
+@import '../../Assets/Styles';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+  margin-top: 12px;
+
+  > :first-child {
+    margin: 20px 0;
+  }
+
+  .btnResetPassword, .btnResetPasswordActive {
+    color: $orange;
+    font-weight: 700;
+    height: $heightBtn;
+  }
+  
+  .btnResetPassword {
+    border: 1px solid $orange;
+  }
+  
+  .btnLogin, .btnLoginActive {
+    height: $heightBtn;
+    font-weight: 700;
+  }
+  
+  .btnLogin {
+    color: $primary;
+  }
+
+  .btnLoginActive {
+    color: $white;
+    background-color: $primary;
+  }
+}

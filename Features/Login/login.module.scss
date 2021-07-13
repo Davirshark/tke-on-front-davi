@@ -1,0 +1,16 @@
+@import '../../Assets/Styles';
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $backgroundLinear;
+  flex-direction: column;
+}
+
+.buttonLanguage {
+  height: 95%;
+  background: $backgroundLinear;
+  margin-right: auto;
+}
